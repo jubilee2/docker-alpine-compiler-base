@@ -1,5 +1,5 @@
-[![Docker Stars](https://img.shields.io/docker/stars/frolvlad/alpine-gcc.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-gcc/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-gcc.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-gcc/)
+[![Docker Stars](https://img.shields.io/docker/stars/jubilee2/alpine-compiler-base.svg?style=flat-square)](https://hub.docker.com/r/jubilee2/alpine-compiler-base/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jubilee2/alpine-compiler-base.svg?style=flat-square)](https://hub.docker.com/r/jubilee2/alpine-compiler-base/)
 
 
 C (GCC) Docker image
@@ -7,10 +7,12 @@ C (GCC) Docker image
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
 [C compiler](https://gcc.gnu.org/) (GCC package).
+[gfortran]()
+[python2 (include pip)]()
 
 Download size of this image is only:
 
-[![](https://images.microbadger.com/badges/image/frolvlad/alpine-gcc.svg)](http://microbadger.com/images/frolvlad/alpine-gcc "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/jubilee2/alpine-compiler-base.svg)](http://microbadger.com/images/jubilee2/alpine-compiler-base "Get your own image badge on microbadger.com")
 
 NOTE: If you are looking for C++ (GCC) Docker image, there is one: [`frolvlad/alpine-gxx`](https://hub.docker.com/r/frolvlad/alpine-gxx/)
 
